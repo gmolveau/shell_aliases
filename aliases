@@ -1,4 +1,3 @@
-```
 alias stfu='sudo $(fc -ln -1)'  
 alias -g fucking='sudo'  
 alias biggest='find -type f -printf '\''%s %p\n'\'' | sort -nr '  
@@ -13,5 +12,4 @@ alias cmount="mount | column -t"
 alias busy="cat /dev/urandom | hexdump -C | grep "ca fe""  
 alias ports='netstat -tulanp'  
 alias rmm='rm'  
-alias rm='trash' 
-```
+alias rm='mv \!* ~/.trash'
