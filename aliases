@@ -1,0 +1,17 @@
+```
+alias stfu='sudo $(fc -ln -1)'  
+alias -g fucking='sudo'  
+alias biggest='find -type f -printf '\''%s %p\n'\'' | sort -nr '  
+alias path='echo -e ${PATH//:/\\n}'  
+alias now='date +"%T"'  
+alias fullupdate='apt-get update &&  apt-get upgrade && apt-get dist-upgrade'  
+alias wget='wget -c'  
+alias ls="ls -a --color=auto"  
+alias lsh="ls -lsha --color=auto"  
+backup() { cp "$1"{,.bak};}  
+alias cmount="mount | column -t"  
+alias busy="cat /dev/urandom | hexdump -C | grep "ca fe""  
+alias ports='netstat -tulanp'  
+alias rmm='rm'  
+alias rm='trash' 
+```
